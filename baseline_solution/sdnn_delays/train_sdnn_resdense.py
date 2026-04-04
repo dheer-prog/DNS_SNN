@@ -73,7 +73,7 @@ class dereblock(torch.nn.Module):
         x=self.fc1(x)
         x=self.fc2(x)
         if(self.skip):
-            self.skip(prev)
+            prev=self.skip(prev)
         return prev+x
 #What I want to do with this network is make sure it's deep so that the 
 #residual blocks are actually of some use 
@@ -99,7 +99,7 @@ class Network_Large(torch.nn.Module):
 
         self.input_quantizer = lambda x: slayer.utils.quantize(x, step=1 / 64)
         self.input_layer=slayer.block.sigma_delta.Input(sdnn_params)
-        self.block.sigma_delta.Dense(sdnn_params,257,512,weight_norm=False,delay=True,delay_shift=True)
+        self.bl1=slayer.sigma_delta.Dense(sdnn_params,257,512,weight_norm=False,delay=True,delay_shift=True)
         self.residual_blocks=nn.ModuleList()
         counter=0; 
         in_fet=512
@@ -121,11 +121,11 @@ class Network_Large(torch.nn.Module):
             in_fet = prev
         if(in_fet!=512):
             print("FUCKed")
-        self.out_block(sdnn_params,in_fet,257,weight_norm=False)
+        self.out_block=slayer.block.sigma_delta.Dense(sdnn_params,in_fet,257,weight_norm=False)
         self.blocks[0].pre_hook_fx = self.input_quantizer
     def forward(self,noisy):
         x = noisy - self.stft_mean
-
+        x=self.bl1(x)
         for block in self.residual_blocks:
             x = block(x)
         mask = torch.relu(x + 1)
@@ -259,14 +259,14 @@ if __name__ == '__main__':
 
     out_delay = args.out_delay
     if len(args.gpu) == 1:
-        net = Network(args.threshold,
+        net = Network_Large(args.threshold,
                       args.tau_grad,
                       args.scale_grad,
                       args.dmax,
                       args.out_delay).to(device)
         module = net
     else:
-        net = torch.nn.DataParallel(Network(args.threshold,
+        net = torch.nn.DataParallel(Network_Large(args.threshold,
                                             args.tau_grad,
                                             args.scale_grad,
                                             args.dmax,
