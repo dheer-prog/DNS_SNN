@@ -1,4 +1,4 @@
-# Copyright (C) 2021-22 Intel Corporation
+ # Copyright (C) 2021-22 Intel Corporation
 # SPDX-License-Identifier: MIT
 # See: https://spdx.org/licenses/
 
@@ -72,7 +72,7 @@ class dereblock(torch.nn.Module):
         self.fc2.delay.max_delay=64
         self.skip=None 
         if(in_features!=out_features):
-            self.skip=(slayer.block.sigma_delta.Dense(sdnn_params,in_features,out_features,weigth_norm=False))
+            self.skip=(slayer.block.sigma_delta.Dense(sdnn_params,in_features,out_features,weight_norm=False))
     def forward(self,x): 
         prev=x 
         x=self.fc1(x)
@@ -82,7 +82,7 @@ class dereblock(torch.nn.Module):
         return prev+x
 #What I want to do with this network is make sure it's deep so that the 
 #residual blocks are actually of some use 
-class Network_Large(torch.nn.Module):
+class NetworkLarge(torch.nn.Module):
     def __init__(self,n_blocks,threshold=0.1, tau_grad=0.1, scale_grad=0.8, max_delay=64, out_delay=0):
         super().__init__()
         self.stft_mean = 0.2
@@ -109,8 +109,7 @@ class Network_Large(torch.nn.Module):
         counter=0; 
         in_fet=512
         channel_history = []
-        self.residual_blocks.append(self.input_layer)
-        self.residual_blocks.append(self.bl1)
+     
         # Encoder
         for i in range(n_blocks // 2):
             if i % 4 == 3:
@@ -128,12 +127,15 @@ class Network_Large(torch.nn.Module):
         if(in_fet!=512):
             print("FUCKed")
         self.out_block=slayer.block.sigma_delta.Dense(sdnn_params,in_fet,257,weight_norm=False)
-        self.residual_blocks.append(self.out_block)
-        self.residual_blocks[0].pre_hook_fx = self.input_quantizer
+        
+        self.input_layer.pre_hook_fx = self.input_quantizer
     def forward(self,noisy):
         x = noisy - self.stft_mean
+        x=self.input_layer(x)
+        x=self.bl1(x)
         for block in self.residual_blocks:
             x = block(x)
+        x=self.out_block(x)
         mask = torch.relu(x + 1)
         return slayer.axon.delay(noisy, self.out_delay) * mask
     def validate_gradients(self):
@@ -148,11 +150,33 @@ class Network_Large(torch.nn.Module):
             self.zero_grad()
 
     def export_hdf5(self, filename):
-        # network export to hdf5 format
         h = h5py.File(filename, 'w')
         layer = h.create_group('layer')
-        for i, b in enumerate(self.residual_blocks):
-            b.export_hdf5(layer.create_group(f'{i}'))
+        
+        idx = 0
+        # Store each SLAYER primitive block with its numeric index
+        # netx reads by number so keep that convention
+        self.input_layer.export_hdf5(layer.create_group(f'{idx}')); idx+=1
+        self.bl1.export_hdf5(layer.create_group(f'{idx}')); idx+=1
+        # For each dereblock, flatten its internals
+        block_map = []  # store residual topology
+        for b in self.residual_blocks:
+            entry = {'fc1': idx, 'fc2': idx+1, 'skip': None}
+            b.fc1.export_hdf5(layer.create_group(f'{idx}')); idx+=1
+            b.fc2.export_hdf5(layer.create_group(f'{idx}')); idx+=1
+            if b.skip is not None:
+                entry['skip'] = idx
+                b.skip.export_hdf5(layer.create_group(f'{idx}')); idx+=1
+            block_map.append(entry)
+
+        self.out_block.export_hdf5(layer.create_group(f'{idx}')); idx+=1
+
+        # Store topology as metadata — netx ignores this, your loader uses it
+        import json
+        h.attrs['out_delay'] = self.out_delay
+        h.attrs['block_map'] = json.dumps(block_map)
+        h.attrs['architecture'] = 'residual_sdnn'
+        h.close()
 
         
 def nop_stats(dataloader, stats, sub_stats, print=True):
@@ -244,7 +268,7 @@ if __name__ == '__main__':
     identifier = args.exp
     if args.seed is not None:
         torch.manual_seed(args.seed)
-        identifier += '_{}{}'.format(args.optim, args.seed)
+        identifier += '_{}'.format(args.seed)
 
     trained_folder = 'Trained' + identifier
     logs_folder = 'Logs' + identifier
@@ -264,21 +288,31 @@ if __name__ == '__main__':
     device = torch.device('cuda:{}'.format(args.gpu[0]))
 
     out_delay = args.out_delay
-    if len(args.gpu) == 1:
-        net = Network_Large(32,args.threshold,
-                      args.tau_grad,
-                      args.scale_grad,
-                      args.dmax,
-                      args.out_delay).to(device)
-        module = net
-    else:
-        net = torch.nn.DataParallel(Network_Large(32,args.threshold,
-                                            args.tau_grad,
-                                            args.scale_grad,
-                                            args.dmax,
-                                            args.out_delay).to(device),
-                                    device_ids=args.gpu)
-        module = net.module
+    # if len(args.gpu) == 1:
+    #     net = NetworkLarge(32,args.threshold,
+    #                   args.tau_grad,
+    #                   args.scale_grad,
+    #                   args.dmax,
+    #                   args.out_delay).to(device)
+    #     module = net
+    # else:
+    #     net = torch.nn.DataParallel(NetworkLarge(32,args.threshold,
+    #                                         args.tau_grad,
+    #                                         args.scale_grad,
+    #                                         args.dmax,
+    #                                         args.out_delay).to(device),
+    #                                 device_ids=args.gpu)
+    #     module = net.module
+
+
+    #Slayer doesn't work with multiple GPU's very well so let's just use one 
+    #for now
+    net = NetworkLarge(32,args.threshold,
+                    args.tau_grad,
+                    args.scale_grad,
+                    args.dmax,
+                    args.out_delay).to(device)
+    module = net
 
     # Define optimizer module.
     optimizer = torch.optim.RAdam(net.parameters(),
@@ -340,10 +374,6 @@ if __name__ == '__main__':
             net.validate_gradients()
             torch.nn.utils.clip_grad_norm_(net.parameters(), args.clip)
             optimizer.step()
-
-            if i < 10:
-                net.grad_flow(path=trained_folder + '/')
-
             if torch.isnan(score).any():
                 score[torch.isnan(score)] = 0
 
