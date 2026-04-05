@@ -6,6 +6,10 @@
 # just the SNN model I used in between will be different
 
 
+
+"""
+MAJOR FUCKUP SLAYER WON'T SUPPORT RESIDUAL CONNECTIONS WHEN I WANT TO SAVE THE BLOCK"
+"""
 #Refer to this for future documentation on SLAYER 
 #https://lava-nc.org/lava-lib-dl/slayer/slayer.html?utm_source=chatgpt.com
 
@@ -24,6 +28,7 @@ import torch.nn as nn
 from lava.lib.dl import slayer
 from audio_dataloader import DNSAudio
 from snr import si_snr
+
 
 
 def collate_fn(batch):
@@ -99,12 +104,13 @@ class Network_Large(torch.nn.Module):
 
         self.input_quantizer = lambda x: slayer.utils.quantize(x, step=1 / 64)
         self.input_layer=slayer.block.sigma_delta.Input(sdnn_params)
-        self.bl1=slayer.sigma_delta.Dense(sdnn_params,257,512,weight_norm=False,delay=True,delay_shift=True)
+        self.bl1=slayer.block.sigma_delta.Dense(sdnn_params,257,512,weight_norm=False,delay=True,delay_shift=True)
         self.residual_blocks=nn.ModuleList()
         counter=0; 
         in_fet=512
         channel_history = []
-
+        self.residual_blocks.append(self.input_layer)
+        self.residual_blocks.append(self.bl1)
         # Encoder
         for i in range(n_blocks // 2):
             if i % 4 == 3:
@@ -122,10 +128,10 @@ class Network_Large(torch.nn.Module):
         if(in_fet!=512):
             print("FUCKed")
         self.out_block=slayer.block.sigma_delta.Dense(sdnn_params,in_fet,257,weight_norm=False)
-        self.blocks[0].pre_hook_fx = self.input_quantizer
+        self.residual_blocks.append(self.out_block)
+        self.residual_blocks[0].pre_hook_fx = self.input_quantizer
     def forward(self,noisy):
         x = noisy - self.stft_mean
-        x=self.bl1(x)
         for block in self.residual_blocks:
             x = block(x)
         mask = torch.relu(x + 1)
@@ -145,7 +151,7 @@ class Network_Large(torch.nn.Module):
         # network export to hdf5 format
         h = h5py.File(filename, 'w')
         layer = h.create_group('layer')
-        for i, b in enumerate(self.blocks):
+        for i, b in enumerate(self.residual_blocks):
             b.export_hdf5(layer.create_group(f'{i}'))
 
         
@@ -259,14 +265,14 @@ if __name__ == '__main__':
 
     out_delay = args.out_delay
     if len(args.gpu) == 1:
-        net = Network_Large(args.threshold,
+        net = Network_Large(32,args.threshold,
                       args.tau_grad,
                       args.scale_grad,
                       args.dmax,
                       args.out_delay).to(device)
         module = net
     else:
-        net = torch.nn.DataParallel(Network_Large(args.threshold,
+        net = torch.nn.DataParallel(Network_Large(32,args.threshold,
                                             args.tau_grad,
                                             args.scale_grad,
                                             args.dmax,
