@@ -18,6 +18,30 @@ from train_sdnn_redense import collate_fn, stft_splitter, stft_mixer, nop_stats,
 import json
 import h5py
 from lava.lib.dl.netx import hdf5
+import sys
+
+
+class Tee:
+    """Writes output to both stdout and a log file simultaneously."""
+    def __init__(self, filepath):
+        self.terminal = sys.stdout
+        self.log = open(filepath, 'w')
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+        self.log.flush()
+
+    def flush(self):
+        self.terminal.flush()
+        self.log.flush()
+
+    def close(self):
+        self.log.close()
+
+
+sys.stdout = Tee('results.txt')
+
 
 class InferenceNet:
     def __init__(self, net_filename):
@@ -190,9 +214,7 @@ print(f'Total NeuronOPS: {sum(neuronops)}')
 print(f'Time-step per sample: {noisy_abs.shape[-1]}')
 
 
-
-
-#THis is for validation part 
+# This is for validation part 
 dnsmos_noisy = np.zeros(3)
 dnsmos_clean = np.zeros(3)
 dnsmos_noise = np.zeros(3)
@@ -266,7 +288,6 @@ print(f'Total NeuronOPS: {sum(neuronops)} per time-step')
 print(f'Time-step per sample: {noisy_abs.shape[-1]}')
 
 
-
 dt = hop_length / metadata['fs']
 buffer_latency = dt
 print(f'Buffer latency: {buffer_latency * 1000} ms')
@@ -293,7 +314,6 @@ dns_latency = np.mean(dns_delays) / metadata['fs']
 print(f'N-DNS latency: {dns_latency * 1000} ms')
 
 
-
 base_stats = slayer.utils.LearningStats(accuracy_str='SI-SNR',
                                         accuracy_unit='dB')
 nop_stats(validation_loader, base_stats, base_stats.validation, print=False)
@@ -311,3 +331,7 @@ synops_delay_product = effective_synops_rate * latency
 print(f'Solution Latency                 : {latency * 1000: .3f} ms')
 print(f'Power proxy (Effective SynOPS)   : {effective_synops_rate:.3f} ops/s')
 print(f'PDP proxy (SynOPS-delay product) : {synops_delay_product: .3f} ops')
+
+
+sys.stdout.close()
+sys.stdout = sys.stdout.terminal
