@@ -113,16 +113,16 @@ class NetworkLarge(torch.nn.Module):
         # Encoder
         for i in range(n_blocks // 2):
             if i % 4 == 3:
-                self.residual_blocks.append(dereblock(sdnn_params, in_fet, in_fet * 2))
+                self.residual_blocks.append(dereblock(in_fet, in_fet * 2,sdnn_params))
                 in_fet *= 2
             else:
-                self.residual_blocks.append(dereblock(sdnn_params, in_fet, in_fet))
+                self.residual_blocks.append(dereblock(in_fet, in_fet,sdnn_params))
             
             channel_history.append(in_fet)
 
         # Decoder (reverse)
         for prev in reversed(channel_history[:-1]):
-            self.residual_blocks.append(dereblock(sdnn_params, in_fet, prev))
+            self.residual_blocks.append(dereblock(in_fet, prev,sdnn_params))
             in_fet = prev
         if(in_fet!=512):
             print("FUCKed")
@@ -335,8 +335,7 @@ if __name__ == '__main__':
                                    num_workers=4,
                                    pin_memory=True)
 
-    base_stats = slayer.utils.LearningStats(accuracy_str='SI-SNR',
-                                            accuracy_unit='dB')
+    base_stats = slayer.utils.LearningStats()
 
     # print()
     # print('Base Statistics')
@@ -344,8 +343,7 @@ if __name__ == '__main__':
     # nop_stats(validation_loader, base_stats, base_stats.validation)
     # print()
 
-    stats = slayer.utils.LearningStats(accuracy_str='SI-SNR',
-                                       accuracy_unit='dB')
+    stats = slayer.utils.LearningStats()
 
     for epoch in range(args.epoch):
         t_st = datetime.now()

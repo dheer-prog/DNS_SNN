@@ -1,0 +1,2172 @@
+fatal: unable to access 'https://github.com/spack/spack-packages.git/': Could not resolve host: github.com
+==> Warning: Error constructing repository '/home/melode/23b3989/.spack/package_repos/fncqgg4': Failed to clone repository builtin
+[1;93m==>[0m Warning: Error constructing repository '/home/melode/24b3989/.spack/package_repos/fncqgg4': failed to read /home/melode/24b3989/.spack/package_repos/fncqgg4/spack-repo-index.yaml: [Errno 2] No such file or directory: '/home/melode/24b3989/.spack/package_repos/fncqgg4/spack-repo-index.yaml'
+[1;31m==>[0m Error: Spec 'python@3.10' matches no installed packages.
+/scratch/slurm_conf/spool/slurm/d/job87616/slurm_script: line 53: python: command not found
+/scratch/slurm_conf/spool/slurm/d/job87616/slurm_script: line 58: /home/melode/24b3989/dns_venv/bin/activate: No such file or directory
+/scratch/slurm_conf/spool/slurm/d/job87616/slurm_script: line 59: pip: command not found
+/scratch/slurm_conf/spool/slurm/d/job87616/slurm_script: line 63: pip: command not found
+/scratch/slurm_conf/spool/slurm/d/job87616/slurm_script: line 67: pip: command not found
+/scratch/slurm_conf/spool/slurm/d/job87616/slurm_script: line 72: python: command not found
+/scratch/slurm_conf/spool/slurm/d/job87616/slurm_script: line 84: /home/melode/24b3989/dns_venv/bin/activate: No such file or directory
+/usr/bin/which: no python in (/lustre-flash/apps/spack/bin:/home/melode/24b3989/.local/bin:/home/melode/24b3989/bin:/opt/slurm/sbin:/opt/slurm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin)
+/usr/bin/which: no pip in (/lustre-flash/apps/spack/bin:/home/melode/24b3989/.local/bin:/home/melode/24b3989/bin:/opt/slurm/sbin:/opt/slurm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: dns4public.blob.core.windows.net
+
+bzip2: Compressed file ends unexpectedly;
+	perhaps it is corrupted?  *Possible* reason follows.
+bzip2: Inappropriate ioctl for device
+	Input file = (stdin), output file = (stdout)
+
+It is possible that the compressed file(s) have become corrupted.
+You can use the -tvv option to test integrity of such files.
+
+You can use the `bzip2recover' program to attempt to recover
+data from undamaged sections of corrupted files.
+
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
